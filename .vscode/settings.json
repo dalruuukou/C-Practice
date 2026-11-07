@@ -11,8 +11,26 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "PowerShell UTF-8",
-      "files.exclude": {
-        "**/*.exe": true,
-        "**/*.o": true
-    }
+  "files.autoGuessEncoding": false,
+  "files.exclude": {
+    "**/*.exe": true,
+    "**/*.o": true,
+    "**/*.obj": true,
+    "**/*.out": true
+  },
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#18181B",
+    "activityBar.background": "#18181B",
+    "sideBar.background": "#18181B",
+    "editorGroupHeader.tabsBackground": "#18181B",
+    "tab.inactiveBackground": "#18181B",
+    "tab.activeBackground": "#18181B",
+    "editor.background": "#18181B",
+    "panel.background": "#18181B",
+    "terminal.background": "#18181B",
+    "statusBar.background": "#18181B",
+    "sideBar.border": "#2A2A30",
+    "panel.border": "#2A2A30",
+    "titleBar.border": "#2A2A30"
+  }
 }
